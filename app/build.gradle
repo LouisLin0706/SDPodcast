@@ -42,5 +42,9 @@ dependencies {
     implementation Libs.koinViewModel
     implementation Libs.constraintLayout
     implementation Libs.liveData
+
+    implementation Libs.retrofit
+    implementation Libs.retrofitGson
+
     implementation project(':lib_player')
 }

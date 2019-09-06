@@ -13,11 +13,12 @@ class HomeActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val channelListFragment = ChannelListFragment.newInstance()
         supportFragmentManager.beginTransaction()
-            .replace(
+            .add(
                 R.id.container,
-                ChannelListFragment.newInstance(),
-                ChannelListFragment::class.java.simpleName
+                channelListFragment,
+                channelListFragment::class.java.simpleName
             ).commit()
     }
 }

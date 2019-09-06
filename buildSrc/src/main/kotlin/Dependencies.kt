@@ -18,7 +18,7 @@ object Versions {
     val mockk = "1.8.13.kotlin13"
     val navigation = "1.0.0-alpha06"
     val paging = "1.0.0"
-    val retrofit = "2.5.0"
+    val retrofit = "2.6.0"
     val supportLib = "28.0.0"
     val testEspresso = "3.1.0"
     val testRunner = "1.1.0"
